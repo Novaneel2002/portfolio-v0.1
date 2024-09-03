@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/portfolio-v1.0/",
   optimizeDeps: {
-    include: ['bootstrap/dist/css/bootstrap.min.css']
+    include: ['react-bootstrap']  // Do not include CSS files here
   }
 })
