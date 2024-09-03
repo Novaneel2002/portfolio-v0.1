@@ -1,0 +1,33 @@
+.carousel{
+    /* background-color: #00000000; */
+    /* border: solid red 1px; */
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    
+}
+.carousel-item{
+    /* margin-top: 8rem; */
+    /* border: solid red 1px; */
+    padding-right: 15rem;
+    padding-left: 15rem;
+}
+
+
+.carousel-caption {
+
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+}
+
+.carousel-caption h3{
+    font-size:3rem;
+}
+.carousel-caption p{
+    font-size:2rem;
+}
