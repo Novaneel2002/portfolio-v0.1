@@ -67,7 +67,7 @@ const Home = () => {
           zIndex: '-5',
         }}
       >
-        <source src="/resources/intro.webm" type="video/webm" />
+        <source src="./resources/intro.webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
 
@@ -83,7 +83,7 @@ const Home = () => {
             animation={`${slideInLeft} 1s ease-in-out, ${pulse} 2s infinite`}>
             
           </Box> */}
-          <Link to="/skills">
+          <Link to="/portfolio-v0.1/skills">
             <Button
               backgroundColor="#bdffff86"
               mt="4.5rem"
@@ -129,7 +129,7 @@ const Home = () => {
             </Button>
           </Link>
         </Box> */}
-        <Link to="/works">
+        <Link to="/portfolio-v0.1/works">
             <Button
             marginLeft="0.6rem"
               backgroundColor="#bdffff86"
