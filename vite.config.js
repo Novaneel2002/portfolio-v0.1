@@ -5,7 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/portfolio-v1.0/",
-  optimizeDeps: {
-    include: ['react-bootstrap']  // Do not include CSS files here
-  }
 })
