@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react"
-// import { Container } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import Navbar from "../Homepage/Navbar";
 
 const html = `

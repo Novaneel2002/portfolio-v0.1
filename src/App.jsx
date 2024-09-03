@@ -7,7 +7,7 @@ import {
 import Homepage from './components/Homepage/Homepage';
 import Work from './components/works/Work';
 import Skills from './components/Skill/Skills';
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 // import Resume from './components/Resume/Resume';
